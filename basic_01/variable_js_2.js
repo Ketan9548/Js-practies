@@ -17,7 +17,15 @@ user_City = "jaspur"
 let b = 231
 let a = 432
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+
+
+// undefinde mening
+let score
+
+
+// if we have not to give any value in variable then it's undefinde
+console.log(score)
