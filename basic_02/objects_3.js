@@ -1,13 +1,23 @@
-// Single letor
+// Singleton
+// Object.create(); this is make using constructor
 
+
+// symbol declaration
+const mysym = Symbol("Working")
 // Objects Letor
 
-// Object.create(); this is make using constructor
 
 // object litrals
 const JsUser = {
     name:"kapil",
     number:"23122",
+    mysym:"worded",
     location:"kapil@gmail.com",
-    
+    islogin:false,
+    lastLogin:[
+        "Sunday", "Monday"
+    ]
 }
+
+
+console.log(JsUser[mysym])

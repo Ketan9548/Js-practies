@@ -1,6 +1,8 @@
 // const marvel_hero = ["IronMan", "Thore","Captain America"];
 // const Dc_hero = ["Batman","Superman"];
 
+
+// spreade opration
 // const all_heros = [...marvel_hero,...Dc_hero]
 
 // console.log(all_heros)
