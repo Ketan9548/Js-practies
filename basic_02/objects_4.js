@@ -52,4 +52,4 @@ const newarrayobjects = [
     }
 ]
 
-console.log(newarrayobjects[0].name)
+// console.log(newarrayobjects[0].name)
