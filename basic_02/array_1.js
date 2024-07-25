@@ -20,4 +20,9 @@
 // console.log(1 in arr1)
 
 
-console.log(Array.from("kapil"))
+// console.log(Array.from("kapil"))
+
+
+const cars = ["buggati","mersadeis","lamborgini"]
+
+for
