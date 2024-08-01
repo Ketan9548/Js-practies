@@ -67,11 +67,16 @@
 // })
 
 
-const arr = [2,6,4,3,5,2,7,3]
+// const arr = [2,6,4,3,5,2,7,3]
 
-// const n = arr.filter((num)=> num>3)
-const n = arr.filter((num)=> {
-    return num>3
-})
+// // const n = arr.filter((num)=> num>3)
+// const n = arr.filter((num)=> {
+//     return num>3
+// })
 
-console.log(n)
+// console.log(n)
+
+
+let work = "programming";
+const m = Array.from(work);
+console.log(m)
