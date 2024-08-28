@@ -5,12 +5,26 @@ const details = {
 
     getdetails: function(){
         console.log(`the username is: ${this.age}`);
+        // console.log(this)
     }
 }
  
-console.log(details.username)
-details.getdetails();
+// console.log(details.username)
+// details.getdetails();
+// console.log(this)
 
+
+function User(username, loginCount, IsloggedIn){
+    this.username = username;
+    this.loginCount = loginCount;
+    this.IsloggedIn = IsloggedIn;
+    // return this;
+}
+
+const UserOne = new User('kapil',4,true);
+const UserTwo = new User('ketan',9,false);
+console.log(UserOne)
+console.log(UserTwo)
 
 
 /*
