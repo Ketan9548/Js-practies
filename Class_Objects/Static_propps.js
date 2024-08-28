@@ -5,12 +5,12 @@ class User {
     LoginMe(){
         return `${this.username} Has been Login`
     }
+    // not acces every one
+    static NotEveryOne(){
+        console.log(`this is not for everyone`)
+    }
 }
 
-// const me = new User("kapil");
-// console.log(me.LoginMe())
-
-// inheritance
 class Usernamp extends User{
     constructor(password,username){
         super(username)
@@ -22,10 +22,8 @@ class Usernamp extends User{
     }
 }
 
-const val1 = new Usernamp(1234,"kapil");
-const val2 = new User("lumon")
-console.log(val1.Printval())
-console.log(val2.LoginMe())
-
-console.log(val2 instanceof User)
-
+const kapil = new User("kapil_122")
+const ketan = new Usernamp("ketan_123",83844);
+// kapil.NotEveryOne()
+// ketan.NotEveryOne()
+console.log(ketan.LoginMe())
