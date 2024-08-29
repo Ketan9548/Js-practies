@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center a Div</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .my-div {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body style="background-color: #313131;">
+    <div class="my-div">
+        Hello, I'm a centered div!
+    </div>
+    <script>
+        // Lexical scoping
+        // function init() {
+        //     let name = "Mozilla"; // name is a local variable created by init
+        //     function displayName() {
+        //         // displayName() is the inner function, that forms a closure
+        //         console.log(name); // use variable declared in the parent function
+        //     }
+        //     displayName();
+        // }
+        // init();
+
+        // function valueprint(){
+        //     let v = 3;
+        //     console.log(v);
+        // }
+        // valueprint()
+        // console.log(v)
+
+        // Closures
+        function makeFunc() {
+            const name = "Mozilla";
+            function displayName() {
+                console.log(name);
+            }
+            return displayName;
+        }
+
+        const myFunc = makeFunc();
+        myFunc();
+
+    </script>
+</body>
+
+</html>
