@@ -36,8 +36,8 @@ let score;
 // }
 
 // let scope
-for (let i = 1; i <= 5; i++) {
-  setTimeout(() => {
-    console.log("value of i is: ", i);
-  }, 0);
-}
+// for (let i = 1; i <= 5; i++) {
+//   setTimeout(() => {
+//     console.log("value of i is: ", i);
+//   }, 0);
+// }

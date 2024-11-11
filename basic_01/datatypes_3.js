@@ -7,4 +7,14 @@ let player; // undefined
 
 // console.log(worlwidenumber)
 // console.log(bloodgroup)
-console.log(bloodgroup);
+// console.log(bloodgroup);
+
+// console.log(Symbol("K")===Symbol("K"))
+const secret = Symbol("secret");
+const myObject = {
+  [secret]: "hiddenValue",
+  publicValue: "visibleValue",  
+};
+
+console.log(Object.keys(myObject)); // ["publicValue"]
+console.log(myObject[secret]); // "hiddenValue"
