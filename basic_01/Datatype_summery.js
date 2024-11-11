@@ -25,4 +25,17 @@ let object1 = {
     job:"SDE1"
 }
 
-console.log(Number(object1.age))
+// console.log(Number(object1.age))
+
+
+// *********************************** memory types *********************************
+
+// Stack(Primative) and Heap(non-Primative) 
+
+let name = "kapil"
+
+let anothername = name
+anothername = "ketan"
+
+console.log(name)
+console.log(anothername)
