@@ -17,4 +17,12 @@ const id = Symbol("123")
 const anotherId = Symbol("123")
 //  Both are diffrence Symbole
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
+
+let object1 = {
+    name:"kapil",
+    age:"23",
+    job:"SDE1"
+}
+
+console.log(Number(object1.age))
