@@ -17,7 +17,7 @@ const game1 = {
         herolevel:{
             bodylevel:86,
             mindlevel:100
-        },
+        },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
         weaponlevel:78
     }
 }
@@ -32,7 +32,7 @@ const user2 = {3:"three",4:"foure"}
 // const newuser = Object.assign({},user1,user2)
 const newuser1 = {...user1,...user2}
 
-// console.log(newuser1)
+console.log(newuser1)
 
 const newarrayobjects = [
     {
