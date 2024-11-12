@@ -22,7 +22,7 @@ const game1 = {
   },
 };
 
-// console.log(game1.userscore?.weaponhelth)
+console.log(game1.userscore?.weaponhelth)
 
 // mergetwo objects
 
@@ -32,7 +32,7 @@ const user2 = { 3: "three", 4: "foure" };
 // const newuser = Object.assign({},user1,user2)
 const newuser1 = { ...user1, ...user2 };
 
-console.log(newuser1);
+// console.log(newuser1);
 
 const newarrayobjects = [
   {
@@ -52,4 +52,15 @@ const newarrayobjects = [
   },
 ];
 
+const userdata = {
+    name:"max",
+    age:"21",
+    site:"www.google.com"
+}
+
 // console.log(newarrayobjects[0].name)
+const val = Object.keys(userdata)
+const val1 = Object.values(userdata)
+val1.map((m)=>(
+    console.log(m)
+))
