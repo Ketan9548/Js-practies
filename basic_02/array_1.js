@@ -24,5 +24,3 @@
 
 
 const cars = ["buggati","mersadeis","lamborgini"]
-
-for
