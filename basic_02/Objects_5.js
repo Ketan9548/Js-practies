@@ -6,5 +6,7 @@ const course = {
 
 // destructure of the objects
 const {price:courseprice} = course
+const {duration:Courseduration} = course
 
 console.log(courseprice)
+console.log(Courseduration);
