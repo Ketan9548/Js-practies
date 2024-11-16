@@ -10,7 +10,6 @@
 // console.log(arr)
 // console.log(arr1)
 
-
 // const arr1 = [2,1,3,4,"kapil",true]
 
 // for (let i = 0; i < arr1.length; i++) {
@@ -19,16 +18,18 @@
 // }
 // console.log(1 in arr1)
 
-
 // console.log(Array.from("kapil"))
 
+// const cars = ["buggati","mersadeis","lamborgini"]
 
-const cars = ["buggati","mersadeis","lamborgini"]
+// let val = []
 
-let val = []
+// val = cars;
 
-val = cars;
+// val[0] = "Name"
 
-val[0] = "Name"
+// console.log(val)
 
-console.log(val)
+const heros = ["superman", "ironman", "hulk", "captainAmerica"];
+
+console.log(heros)  
