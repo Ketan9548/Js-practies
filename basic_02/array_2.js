@@ -19,6 +19,6 @@ const arr = [1,2,4,["kapil","chauhan"],6,7]
 // console.log(Object.keys(arr))
 
 const arr1 = []
-const name = ""
+const name1 = ""
 console.log(typeof arr1)
-console.log(typeof name)
+console.log(typeof name1)
