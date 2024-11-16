@@ -24,3 +24,11 @@
 
 
 const cars = ["buggati","mersadeis","lamborgini"]
+
+let val = []
+
+val = cars;
+
+val[0] = "Name"
+
+console.log(val)
