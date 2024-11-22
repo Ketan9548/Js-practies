@@ -14,8 +14,6 @@ const arr = [1,2,4,["kapil","chauhan"],6,7]
 // console.log("after slice array is: ",arr)
 // console.log(arr.splice(1,4))
 // console.log("after splice array is: ",arr)
-
-
 // console.log(Object.keys(arr))
 
 const arr1 = []
