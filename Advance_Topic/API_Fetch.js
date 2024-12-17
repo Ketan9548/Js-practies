@@ -47,7 +47,7 @@
 // consumePromise();
 //  Advance_Topic/Screenshot 2024-12-17 112744.png
 
-// Advance_Topic/img1.png
+// [Advance_Topic/img1.png]
 
 // fetch("https://randomuser.me//api")
 //   .then((response) => {
