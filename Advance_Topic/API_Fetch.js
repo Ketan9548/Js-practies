@@ -24,37 +24,48 @@
 //     console.log("promis consumed")
 // })
 
-const promiseFive = new Promise(function (resolve, reject) {
-  setTimeout(function () {
-    let error = false;
-    if (!error) {
-      resolve("Successful Promise resolved");
-    } else {
-      reject("is Accured");
-    }
-  }, 1000);
-});
+// const promiseFive = new Promise(function (resolve, reject) {
+//   setTimeout(function () {
+//     let error = false;
+//     if (!error) {
+//       resolve("Successful Promise resolved");
+//     } else {
+//       reject("is Accured");
+//     }
+//   }, 1000);
+// });
 
-async function consumePromise() {
-  try {
-    const val = await promiseFive;
-    console.log(val);
-  } catch (error) {
-    console.log("Error:", error);
-  }
-}
+// async function consumePromise() {
+//   try {
+//     const val = await promiseFive;
+//     console.log(val);
+//   } catch (error) {
+//     console.log("Error:", error);
+//   }
+// }
 
-consumePromise();
+// consumePromise();
+//  Advance_Topic/Screenshot 2024-12-17 112744.png
 
-// fetch('https://randomuser.me//api')
-//     .then((response) => {
-//         return response.json();
-//     })
-//     .then((data) => {
-//         console.log(data);
-//         // console.log("type of:", typeof (data));
-//         const user = data;
-//         console.log("the value is: ", user.info.page)
-//         console.log("The second value is: ",user.results[0].gender)
-//     }).catch((error) =>
-//         console.log(error))
+// Advance_Topic/img1.png
+
+// fetch("https://randomuser.me//api")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//     // console.log("type of:", typeof (data));
+//     const user = data;
+//     console.log("the value is: ", user.info.page);
+//     console.log("The second value is: ", user.results[0].gender);
+//   })
+//   .catch((error) => console.log(error));
+
+fetch(
+  "https://newsapi.org/v2/everything?q=tesla&from=2024-11-17&sortBy=publishedAt&apiKey=8f404dd0939348359cb43415645dce35"
+)
+  .then((response) => response.json())
+  .then((data) => console.log("the value is: ", data))
+  .catch((error) => console.log(error));
+  
