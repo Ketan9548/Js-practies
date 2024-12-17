@@ -62,10 +62,18 @@
 //   })
 //   .catch((error) => console.log(error));
 
+let arr = [];
+
 fetch(
   "https://newsapi.org/v2/everything?q=tesla&from=2024-11-17&sortBy=publishedAt&apiKey=8f404dd0939348359cb43415645dce35"
 )
   .then((response) => response.json())
-  .then((data) => console.log("the value is: ", data))
+  .then((data) => {
+    arr = Object.values(data);
+
+    for (let i = 0; i < arr.length; i++) {
+      const element = arr[i];
+      console.log(element);
+    }
+  })
   .catch((error) => console.log(error));
-  
