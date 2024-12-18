@@ -12,11 +12,11 @@ const arr = [1,2,4,["kapil","chauhan"],6,7]
 
 // console.log(arr.slice(1,4))
 // console.log("after slice array is: ",arr)
-console.log(arr.splice(1,4))
-console.log("after splice array is: ",arr)
+// console.log(arr.splice(1,4))
+// console.log("after splice array is: ",arr)
 // console.log(Object.keys(arr))
 
-// const arr1 = []
-// const name1 = ""
-// console.log(typeof arr1)
-// console.log(typeof name1)
+const arr1 = []
+const name1 = ""
+console.log(typeof arr1)
+console.log(typeof name1)
