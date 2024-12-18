@@ -78,5 +78,7 @@
 
 
 let work = "programming";
+let p = "program programming";
 const m = Array.from(work);
-console.log(m)
+const l = Array.from(p+"e");
+console.log(l)
