@@ -80,5 +80,5 @@
 let work = "programming";
 let p = "program programming";
 const m = Array.from(work);
-const l = Array.from(p+"e");
+const l = Array.from(p+"p");
 console.log(l)
