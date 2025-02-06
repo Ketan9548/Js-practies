@@ -9,7 +9,7 @@ let player; // undefined
 // console.log(bloodgroup)
 // console.log(bloodgroup);
 
-// console.log(Symbol("K")===Symbol("K"))
+console.log(Symbol("K")===Symbol("K"))
 const secret = Symbol("secret");
 const myObject = {
   [secret]: "hiddenValue",
